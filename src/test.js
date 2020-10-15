@@ -1,6 +1,6 @@
 
 const string = `
-我们又见面啦，快来看看是不是你家的小可爱吧~~~
+我们又见面啦，我给自己画了一张画，来看看...
 
 * {
 	padding: 0;
@@ -22,31 +22,18 @@ const string = `
 	background-color: black;
 	position: relative;
 	border-radius: 50%;
-	margin-bottom: -100px;
-	animation: faceColor 10s 1;
-	
+	margin-bottom: -100px;		
 }
-/* @keyframes faceColor{
-	0% { background-color: rgb(35, 51, 96); }	
-	100% { background-color: black; }
-} */
-
 
 .earLeft,
 .earRight{
 	width: 130px;
 	height: 250px;
-	border: 1px solid black;
+	border: 4px solid black;
 	position: absolute;
 	margin-top: -150px;
 	background-color: white;
-	animation: earColour 10s 1;
-	
 }
-/* @keyframes earColour{
-	0% { background-color: rgb(35, 51, 96); }	
-	100% { background-color: white; }	
-} */
 
 .earLeft{
 	border-radius:  70% 30% 0% 0% / 100% 100% 0% 0%;
@@ -141,14 +128,7 @@ const string = `
 }
 html{
 	background-color: black;
-	/* animation: htmlColour 10s 1; */
 }
-/* @keyframes htmlColour{
-	0% { background-color: white; }	
-	100% { background-color: black; }
-} */
-
-
 
 `
 
