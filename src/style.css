@@ -15,17 +15,17 @@
 .cat{
 	width: 400px;
 	height: 300px;
-	background-color: rgb(35, 51, 96);
+	background-color: black;
 	position: relative;
 	border-radius: 50%;
 	margin-bottom: -100px;
-	animation: faceColor 10s 1;
+	/* animation: faceColor 10s 1; */
 	
 }
-@keyframes faceColor{
+/* @keyframes faceColor{
 	0% { background-color: rgb(35, 51, 96); }	
 	100% { background-color: black; }
-}
+} */
 
 
 .earLeft,
@@ -35,15 +35,8 @@
 	border: 1px solid black;
 	position: absolute;
 	margin-top: -150px;
-	background-color: rgb(35, 51, 96);
-	animation: earColour 10s 1;
-	
+	background-color: white;
 }
-@keyframes earColour{
-	0% { background-color: rgb(35, 51, 96); }	
-	100% { background-color: white; }	
-}
-
 .earLeft{
 	border-radius:  70% 30% 0% 0% / 100% 100% 0% 0%;
 	margin-left: -15px;
@@ -56,6 +49,7 @@
 	border-radius:30% 70% 0% 0% / 100% 100% 0% 0%;
 	margin-left: 280px;
 	transform: rotate(10deg);	
+	animation: earColour 1s 1;
 }
 .eyeLeft,
 .eyeRight{
@@ -135,11 +129,11 @@
 	transform: translateX(-50%);
 	border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
 }
-html{
-	background-color: white;
-	animation: htmlColour 10s 1;
+.box{
+	background-color: black;
+	/* animation: htmlColour 10s 1; */
 }
-@keyframes htmlColour{
+/* @keyframes htmlColour{
 	0% { background-color: white; }	
 	100% { background-color: black; }
-}
+} */

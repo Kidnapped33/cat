@@ -1,6 +1,6 @@
 
 const string = `
-我们又见面啦，今天我们来制作一只可爱的蓝猫吧~~~
+我们又见面啦，快来看看是不是你家的小可爱吧~~~
 
 * {
 	padding: 0;
@@ -19,17 +19,17 @@ const string = `
 .cat{
 	width: 400px;
 	height: 300px;
-	background-color: rgb(35, 51, 96);
+	background-color: black;
 	position: relative;
 	border-radius: 50%;
 	margin-bottom: -100px;
 	animation: faceColor 10s 1;
 	
 }
-@keyframes faceColor{
+/* @keyframes faceColor{
 	0% { background-color: rgb(35, 51, 96); }	
 	100% { background-color: black; }
-}
+} */
 
 
 .earLeft,
@@ -39,14 +39,14 @@ const string = `
 	border: 1px solid black;
 	position: absolute;
 	margin-top: -150px;
-	background-color: rgb(35, 51, 96);
+	background-color: white;
 	animation: earColour 10s 1;
 	
 }
-@keyframes earColour{
+/* @keyframes earColour{
 	0% { background-color: rgb(35, 51, 96); }	
 	100% { background-color: white; }	
-}
+} */
 
 .earLeft{
 	border-radius:  70% 30% 0% 0% / 100% 100% 0% 0%;
@@ -140,13 +140,14 @@ const string = `
 	border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
 }
 html{
-	background-color: white;
-	animation: htmlColour 10s 1;
+	background-color: black;
+	/* animation: htmlColour 10s 1; */
 }
-@keyframes htmlColour{
+/* @keyframes htmlColour{
 	0% { background-color: white; }	
 	100% { background-color: black; }
-}
+} */
+
 
 
 `
