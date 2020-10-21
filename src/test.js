@@ -1,6 +1,6 @@
 
 const string = `
-我们又见面啦，我给自己画了一张画，来看看...
+我们又见面啦，今天送你一只猫，来看看...
 
 * {
 	padding: 0;
@@ -13,7 +13,21 @@ const string = `
    box-sizing: border-box;
 }
 .box{
-	min-height: 100vh;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.bigBox{
+	position: relative;
+	width: 400px;
+	height: 500px;
+	
 }
 
 .cat{
@@ -128,6 +142,7 @@ const string = `
 }
 html{
 	background-color: black;
+	color:white;
 }
 
 `

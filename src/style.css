@@ -8,9 +8,6 @@
 *::after {
    box-sizing: border-box;
 }
-.box{
-	min-height: 100vh;
-}
 
 .cat{
 	width: 400px;
@@ -122,6 +119,19 @@
 	border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
 }
 .box{
-	background-color: black;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.bigBox{
+	position: relative;
+	width: 400px;
+	height: 500px;	
 }
 
